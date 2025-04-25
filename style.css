@@ -228,4 +228,20 @@ header {
   }
 }
 
+#cronometro3 {
+  font-size: 1.5em;
+  margin: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  color: #ff6b6b; /* Cor diferente para destacar */
+  animation: pulse 2s infinite; /* Efeito de pulsação opcional */
+}
+
+@keyframes pulse {
+  0% { color: #ff6b6b; }
+  50% { color: #ff0000; }
+  100% { color: #ff6b6b; }
+}
 
